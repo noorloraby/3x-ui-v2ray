@@ -30,7 +30,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 
 ## Coolify Deployment
 
-Use `docker-compose.coolify.yml` as the Coolify Docker Compose file. See [COOLIFY.md](./COOLIFY.md) for the one-container deployment steps and networking notes.
+Use `docker-compose.coolify.yml` for VPN-first host networking, or `docker-compose.coolify-proxy.yml` if the panel must open through a Coolify domain. See [COOLIFY.md](./COOLIFY.md) for the one-container deployment steps and networking notes.
 
 For full documentation, please visit the [project Wiki](https://github.com/MHSanaei/3x-ui/wiki).
 
