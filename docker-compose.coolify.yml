@@ -10,6 +10,7 @@ services:
     ports:
       - "2053:2053/tcp"
       - "2096:2096/tcp"
+      - "8443:8443/tcp"
       # Add every VPN inbound port here before using it in 3x-ui.
       # Examples:
       # - "443:443/tcp"
