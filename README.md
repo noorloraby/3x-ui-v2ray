@@ -28,6 +28,10 @@ As an enhanced fork of the original X-UI project, 3X-UI provides improved stabil
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
 
+## Coolify Deployment
+
+Use `docker-compose.coolify.yml` as the Coolify Docker Compose file. See [COOLIFY.md](./COOLIFY.md) for the one-container deployment steps and networking notes.
+
 For full documentation, please visit the [project Wiki](https://github.com/MHSanaei/3x-ui/wiki).
 
 ## A Special Thanks to
