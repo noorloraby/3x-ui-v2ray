@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     tty: true
     expose:
-      - "2053"
+      - "1234"
     ports:
       - "2053:2053/tcp"
       - "2096:2096/tcp"
